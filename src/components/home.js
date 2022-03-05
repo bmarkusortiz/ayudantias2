@@ -13,10 +13,9 @@ class Incrementador extends Component {
         this.setState({cuentaactual: this.state.cuentaactual + this.state.incremento});
     }
     inPut =(evt) => {
-        console.table("entro")
         const value = parseInt(evt.target.value);
         if (value>10){
-            this.state.classDiv='boxRed';
+            this.setState({classDiv:'boxRed'});
         }
         this.setState({incremento: value});
     }
