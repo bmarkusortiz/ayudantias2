@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  gap: 10px;
+  border: 10px solid black;
+}
+.boxRed {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  gap: 10px;
+  border: 10px solid red;
+}
+.boxa{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
